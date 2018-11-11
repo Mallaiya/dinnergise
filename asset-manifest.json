@@ -1,7 +1,7 @@
 {
-  "main.css": "/dinnergise/static/css/main.3aa2ef61.chunk.css",
-  "main.js": "/dinnergise/static/js/main.36af4a37.chunk.js",
-  "main.js.map": "/dinnergise/static/js/main.36af4a37.chunk.js.map",
+  "main.css": "/dinnergise/static/css/main.2f5955c9.chunk.css",
+  "main.js": "/dinnergise/static/js/main.dd3329bc.chunk.js",
+  "main.js.map": "/dinnergise/static/js/main.dd3329bc.chunk.js.map",
   "static/css/1.6a06e4b5.chunk.css": "/dinnergise/static/css/1.6a06e4b5.chunk.css",
   "static/js/1.dfb59f7d.chunk.js": "/dinnergise/static/js/1.dfb59f7d.chunk.js",
   "static/js/1.dfb59f7d.chunk.js.map": "/dinnergise/static/js/1.dfb59f7d.chunk.js.map",
@@ -9,10 +9,10 @@
   "runtime~main.js.map": "/dinnergise/static/js/runtime~main.297381e8.js.map",
   "static/media/all.min.css": "/dinnergise/static/media/fa-solid-900.4478b4d7.svg",
   "static/media/navLogo.png": "/dinnergise/static/media/navLogo.05158509.png",
-  "static/media/Banner.css": "/dinnergise/static/media/banner.a8f4b8f3.jpg",
-  "static/css/main.3aa2ef61.chunk.css.map": "/dinnergise/static/css/main.3aa2ef61.chunk.css.map",
+  "static/media/Banner.css": "/dinnergise/static/media/banner.d0b236c4.jpg",
+  "static/css/main.2f5955c9.chunk.css.map": "/dinnergise/static/css/main.2f5955c9.chunk.css.map",
   "static/css/1.6a06e4b5.chunk.css.map": "/dinnergise/static/css/1.6a06e4b5.chunk.css.map",
   "index.html": "/dinnergise/index.html",
-  "precache-manifest.b0ae9495bc0b7a3112195aeeffb57bad.js": "/dinnergise/precache-manifest.b0ae9495bc0b7a3112195aeeffb57bad.js",
+  "precache-manifest.1a309a904c7262b865628771b0035238.js": "/dinnergise/precache-manifest.1a309a904c7262b865628771b0035238.js",
   "service-worker.js": "/dinnergise/service-worker.js"
 }
