@@ -1,0 +1,138 @@
+.Nav{
+    position: fixed;
+    width : 300px;
+    background: #222222;
+    height: 100vh;
+    font-family: tahoma;
+    font-size: 15px;
+    float: left;
+}
+
+.navLogo{
+    margin : 15px 35px;
+}
+
+.navbar{
+    margin: 0 10px;
+}
+
+.nav-link{
+    color: #9b9b9b;
+    font-weight: 500;
+    margin: 2px 0;
+}
+
+.active{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.navbar-list:not(:last-child):after{
+    content : '';
+    width: 250px;
+    height:2px;
+    background: #2c2c2c; 
+    display: block;
+}
+
+.menu-bar{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 3;
+}
+
+.bar1, .bar2, .bar3{
+    height : 5px;
+    background: #fff;
+    width: 25px;
+    display:block;
+    border-radius : 50px;
+    margin: 4px 0;
+    transition: all 0.2s ease-out;
+}
+
+.changebar1{
+	transform : rotate(-45deg) translate(-7px, 6px);
+}
+
+.changebar2{
+	opacity: 0;
+}
+
+.changebar3{
+	transform : rotate(45deg) translate(-6px,-5px);
+}
+
+
+
+@media screen and (max-width: 1300px) and (min-width: 768px){
+    .Nav{
+        width : 250px;
+    }    
+    
+    img.navLogo{
+        margin : 15px 25px;
+        width: 200px;
+    }
+    
+    .navbar{
+        margin: 0 10px;
+    }
+    
+    .navbar-list:not(:last-child):after{
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .Nav{
+        position: relative;
+        width: 100%;
+        height: 70px;
+    }   
+
+    img.navLogo{
+        margin : 2px 10px;
+        width:170px;
+    }
+    .navbar{
+        display: none!important;
+        background: #222222;
+        margin: 0;
+        width: 250px;
+        height: 100vh;
+        z-index: 2;
+    }
+    .show{
+        display: block!important;   
+    }
+    
+    .navbar-nav{
+        padding: 0px 10px!important;
+    }
+
+    .navbar-list:not(:last-child):after{
+        width: 200px;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,.8);
+        z-index: 1;
+    }
+}

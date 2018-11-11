@@ -1,0 +1,123 @@
+.Article{
+    margin-left: 300px; 
+}
+
+.article-container{
+    padding: 0px 15px 15px 15px;
+    background: #e8e8e6;
+}
+
+.article-content{
+    height: 250px;
+    background: #fff;
+    padding : 25px 10px;
+}
+
+.article-content h4{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700; 
+}
+.leftside-article{
+    text-align: left;
+}
+.leftside-article img{
+    width: 25px;    
+}
+
+.rightside-article {
+    background: #762484;
+    height: 200px;
+    padding: 15px;
+    color: #fff;
+}
+
+.rightside-article h5:after{
+    content : '';
+    height: 2px; 
+    width: auto;
+    background: #fff;
+    margin-top: 15px;
+    display: block;
+
+}
+
+.rightside-article p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1400px) {
+    .rightside-article p{
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 992px){
+    .Article{
+        margin-left: 250px; 
+    }
+    .rightside-article {
+        padding: 10px;
+    }
+    .rightside-article h5{
+        font-size: 16px;
+    }
+    .rightside-article h5:after{
+        margin-top: 10px;
+    }
+    .rightside-article p{
+        padding-top: 5px;
+    }
+}   
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .Article{
+        margin-left: 250px; 
+    }
+    .article-content{
+        height: auto;
+    }
+    .leftside-article{
+        text-align: center;
+    }
+    .rightside-article {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Article{
+        margin-left: 0px; 
+    }
+    .article-content{
+        height: auto;
+    }
+    .article-container{
+        padding: 15px;    
+    }
+    .leftside-article{
+        text-align: center;
+    }
+    .rightside-article {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    .rightside-article{
+        margin-top: 10px;
+    }
+    .rightside-article h5{
+        font-size: 18px;
+    }
+    .rightside-article h5:after{
+        height: 1.25px;
+    }
+    .leftside-article p{
+        font-size: 16px;
+    }
+    .rightside-article p{
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,164 @@
+.Banner{
+    margin-left: 300px;
+}
+
+.banner-container{
+    padding: 15px;
+    background: #e8e8e6;
+}
+.hero-image{
+    background: linear-gradient(
+        rgba(0, 0 , 0, 0.5),
+        rgba(0, 0 , 0, 0.5)
+    ),url('./image/banner.jpg') 0 -50px no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.hero-quote{
+    color: #fff;
+    padding-top: 100px;
+}
+
+.hero-quote h1{
+    font-weight: 600;
+}
+
+.hero-quote p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button.btn-order{
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.circle{
+    height: 12px;
+    width: 12px;    
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+.circle.active{
+    background: #fff;
+}
+
+.slideIcon{
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 768px){
+    .Banner{
+        margin-left: 250px;
+    }    
+    .hero-image{
+        background-position: 0 0;       
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .banner-container{
+        padding: 15px;
+    }
+    .hero-image{
+        height: 300px;
+        background-position: 0 0;       
+    }
+    .hero-quote{
+        padding-top: 50px;
+    }
+    .hero-quote h1{
+        font-size: 28px;
+    }
+    .hero-quote p{
+        padding: 10px;
+        font-size: 18px;
+    }
+    button.btn-order{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .slideIcon{
+        margin-top: 30px;
+    }
+    .circle{
+        height: 10px;
+        width: 10px;           
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Banner{
+        margin-left: 0px;
+        padding-top: 70px;
+    }   
+    .banner-container{
+        padding: 0px;
+    }
+    .hero-image{
+        height: auto;
+        background-position: 0 0;       
+    }
+    .hero-quote{
+        padding: 50px 0;
+    }
+    .hero-quote h1{
+        font-size: 28px;
+    }
+    .hero-quote p{
+        padding: 10px;
+        font-size: 18px;
+    }
+    button.btn-order{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .slideIcon{
+        margin-top: 30px;
+    }
+    .circle{
+        height: 10px;
+        width: 10px;           
+    }
+}
+
+@media screen and (max-width: 450px){
+    .hero-image{
+        height: 500px;
+        background-position: -60px 0px;
+    }
+    .hero-quote{
+        padding: 100px 0;
+    }
+    .hero-quote h1{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .hero-quote p{
+        font-size: 18px;
+    }
+    button.btn-order{
+        margin: 15px 0 10px 0;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .slideIcon{
+        margin-top: 0px;
+    }
+    .circle{
+        height: 8px;
+        width: 8px;
+        margin-top: 100px;           
+    }    
+}
